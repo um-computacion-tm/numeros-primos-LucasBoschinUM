@@ -1,2 +1,2 @@
-# numeros primos
+# números primos
 # Lucas Alejandro Boschin
