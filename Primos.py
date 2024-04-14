@@ -1,14 +1,16 @@
 import unittest
-
+    
 def is_primo(value):
-    # valor % div -> resto
-    if value % 2 != 0:
+    if value == 1:
+        return True
+    elif value == 2:
+        return True
+    elif value % 2 != 0:
         return True
     else:
         return False
+
     
-
-
 class TestPrimos(unittest.TestCase):
     def test_1(self):
         result = is_primo(1)
